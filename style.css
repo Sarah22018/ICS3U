@@ -1,3 +1,8 @@
+/* CSS files add styling rules to your content */
+
+h1{
+  color:#800000
+}
 
 h2 {
 color: aqua;
@@ -5,6 +10,6 @@ font-size: 46px;
 }
 
 p{
-  color: BlueViolet;
+  color: blueViolet;
   font-size: 20px;
 }
