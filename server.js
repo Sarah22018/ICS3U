@@ -61,6 +61,17 @@ app.get("/news", function(request, response) {
   response.sendFile(__dirname + "/views/news.html");
 });
 
+app.get("/buttons", function(request, response) {
+  response.sendFile(__dirname + "/views/buttons.html");
+});
+
+app.get("/buttons2", function(request, response) {
+  response.sendFile(__dirname + "/views/buttons2.html");
+});
+
+app.get("/functions", function(request, response) {
+  response.sendFile(__dirname + "/views/functions.html");
+});
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
