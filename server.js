@@ -36,7 +36,6 @@ app.get("/filter", function(request, response) {
   response.sendFile(__dirname + "/views/filter.html");
 });
 
-
 app.get("/all", function(request, response) {
   response.sendFile(__dirname + "/views/all.html");
 });
@@ -77,4 +76,3 @@ app.get("/functions", function(request, response) {
 const listener = app.listen(process.env.PORT, function() {
   console.log("Your app is listening on port " + listener.address().port);
 });
-
