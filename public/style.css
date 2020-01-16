@@ -1,5 +1,6 @@
 /* styles */
 /* called by your view template */
+/* index css*/
 
 p.center {
   text-align: center;
@@ -17,4 +18,8 @@ p.center3 {
   text-align: center;
   font-size: 150%;
   color: #b3446c;
+}
+
+p{
+  text-align:center;
 }
