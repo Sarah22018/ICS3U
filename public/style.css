@@ -4,7 +4,7 @@
 
 p.center {
   text-align: center;
-  font-size: 200%;
+  font-size: 250%;
   color: #C71585;
 }
 
@@ -14,9 +14,9 @@ p.center2 {
   color: #9400D3;
 }
 
-p.center3 {
+H3 {
   text-align: center;
-  font-size: 150%;
+  font-size: 125%;
   color: #b3446c;
 }
 
